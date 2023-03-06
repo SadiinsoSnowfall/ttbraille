@@ -5,10 +5,8 @@
 \input{ttb}
 
 \begin{document}
-
-\begin{tikzpicture}
-\directlua{ print_at(0, 0, "chamallow") }
-\directlua{ print_at(20, 10, "chamallow") }
-\end{tikzpicture}
-
+    \begin{tikzpicture}
+        \directlua{ print_at(0, 10, "chamallow") }
+        \directlua{ print_at(0, 0, "ddd") }
+    \end{tikzpicture}
 \end{document}
